@@ -1,0 +1,50 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\..\FrameXML\UI.xsd">
+  <Font name="NinjaKittyFont" font="Interface\AddOns\PrimalMedia\fonts\Ubuntu-M.ttf" virtual="true">
+    <FontHeight>
+      <AbsValue val="11"/>
+    </FontHeight>
+    <Shadow>
+      <Offset>
+        <AbsDimension x="1" y="-1"/>
+      </Offset>
+      <Color r="0" g="0" b="0"/>
+    </Shadow>
+  </Font>
+
+  <Font name="NinjaKittyFontLeft" inherits="NinjaKittyFont" justifyH="LEFT" virtual="true"/>
+  <Font name="NinjaKittyFontRight" inherits="NinjaKittyFont" justifyH="RIGHT" virtual="true"/>
+  <Font name="NinjaKittyFontCenter" inherits="NinjaKittyFont" justifyH="CENTER" virtual="true"/>
+
+  <FontString name="NinjaKittyFontStringLeft" inherits="NinjaKittyFontLeft" wordwrap="false" virtual="true"/>
+  <FontString name="NinjaKittyFontStringRight" inherits="NinjaKittyFontRight" wordwrap="false" virtual="true"/>
+  <FontString name="NinjaKittyFontStringCenter" inherits="NinjaKittyFontCenter" wordwrap="false" virtual="true"/>
+
+  <Font name="PrimalFontNormal" font="Interface\AddOns\PrimalMedia\fonts\Ubuntu-M.ttf" virtual="true">
+    <FontHeight>
+      <AbsValue val="11"/>
+    </FontHeight>
+    <Shadow>
+      <Offset>
+        <AbsDimension x="1" y="-1"/>
+      </Offset>
+      <Color r="0" g="0" b="0"/>
+    </Shadow>
+  </Font>
+
+  <Font name="PrimalMono" font="Interface\AddOns\PrimalMedia\fonts\UbuntuMono-B.ttf" outline="NORMAL" virtual="true">
+    <FontHeight>
+      <AbsValue val="14"/>
+    </FontHeight>
+  </Font>
+
+  <Font name="PrimalFontNormalLeft" inherits="NinjaKittyFont" justifyH="LEFT" virtual="true"/>
+  <Font name="PrimalFontNormalRight" inherits="NinjaKittyFont" justifyH="RIGHT" virtual="true"/>
+  <Font name="PrimalFontNormalCenter" inherits="NinjaKittyFont" justifyH="CENTER" virtual="true"/>
+
+  <Font name="PrimalMonoLeft" inherits="PrimalMono" justifyH="LEFT" virtual="true"/>
+  <Font name="PrimalMonoRight" inherits="PrimalMono" justifyH="RIGHT" virtual="true"/>
+  <Font name="PrimalMonoCenter" inherits="PrimalMono" justifyH="CENTER" virtual="true"/>
+</Ui>
+
+<!-- vim: set tw=120 sts=2 sw=2 et: -->

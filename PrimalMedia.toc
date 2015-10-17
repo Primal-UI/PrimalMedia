@@ -1,0 +1,12 @@
+## Interface: 60200
+## Title: |cffff7d0aPrimalMedia|r
+## Notes: Shared media for PrimalUI.
+## Dependencies: PrimalCore
+## OptionalDeps:
+## Author: meribold
+## Version: 0.1
+
+embeds.xml
+
+PrimalMedia.lua
+fonts.xml
